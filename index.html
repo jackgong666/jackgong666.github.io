@@ -1,7 +1,128 @@
 <!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px;
+            margin: 10px 0;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你好，我是[你的名字]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一名[你的职业或兴趣爱好]，喜欢[你的兴趣]. 我有[提及一些你的技能或经验].</p>
+        </section>
+
+        <section id="projects">
+            <h2>项目</h2>
+            <ul>
+                <li><strong>项目1:</strong> 描述你的第一个项目。</li>
+                <li><strong>项目2:</strong> 描述你的第二个项目。</li>
+                <li><strong>项目3:</strong> 描述你的第三个项目。</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <form>
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">留言:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [你的名字]. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<!DOCTYPE html>
 <html>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
+-->
